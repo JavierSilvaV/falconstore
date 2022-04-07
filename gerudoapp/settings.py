@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-7q0lgz2hn!vq(erah3h25h^@-1v3%svsz_&(n_rxr4e+2jdu)8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 MESSAGE_STORAGE = "django.contrib.messages.storage.cookie.CookieStorage"
 
